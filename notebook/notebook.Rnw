@@ -1,0 +1,58 @@
+%%%NOTE: for help with latex symbols look here http://mirror.unl.edu/ctan/info/symbols/comprehensive/symbols-a4.pdf.
+\documentclass[12pt]{article}
+\usepackage{color}
+\usepackage{cite}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+%\usepackage{pdflscape}        %single page landscape
+                                %mode \begin{landscape} \end{landscape}
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{multicol} % \begin{multicols}{number of columns} \end{multicols}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{Sweave}
+\newcommand{\etal}{\textit{et al.}}
+\usepackage{hyperref}  %\hyperref[label_name]{''link text''}
+                       %\hyperlink{label}{anchor caption}
+                       %\hypertarget{label}{link caption}
+\linespread{1.5}
+
+\title{Pitcher Plant Inquiline Network Evolution}
+\author{M.K. Lau}
+%\date{}                                           % Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+
+\section{Tasks}
+
+\begin{enumerate}
+\item Brainstorm some ideas
+\item Look over pitcher plant lit from Aaron's group
+\item Conservation! 
+
+\item Think about the potential evolutionary questions
+\item Think about the potential network cross overs
+\end{enumerate}
+
+\section{Brainstorm}
+\begin{enumerate}
+\item Conservation?
+\item Evolution?
+\item Model for urban metabolism
+\item Ecosystem level effects tie in with ascendency
+\item Genetics of pitchers, correlate with network structure
+\item Molecular investigation to examine evolution in the inqulines
+\item Mine the dataset and look for biogeographic patterns
+\item Rock-Paper-Scissors Model from Allesina
+\item Increase resolution of nodes
+\item Warming experiments and monitor network structure
+\item 
+\item Ant co-occurrence patterns
+\item 
+\end{enumerate}
+
+
+\end{document}  
+
+
