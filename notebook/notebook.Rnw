@@ -27,9 +27,21 @@
 \section{Tasks}
 
 \begin{enumerate}
-\item Brainstorm some ideas
+
 \item Look over pitcher plant lit from Aaron's group
+\item Look over urban metabolism work and models from china
+
 \item Conservation! 
+
+\item EcoSimR
+
+  \begin{enumerate}
+  \item other packages / value added
+  \item CRAN
+  \item Adding other co-occurrence and bayesian algorithms
+  \item Tapping into github
+  \item 
+  \end{enumerate}
 
 \item Think about the potential evolutionary questions
 \item Think about the potential network cross overs
