@@ -85,10 +85,42 @@
 
 \section{S. purpurea food web seasonal data (1999-2000)}
 
+Email from Aaron:
+\begin{verbatim}
+
+See attached files for temporal changes in pitcher-plant food
+webs. "Hawley" is MA; "Molly" is VT. The experimental treatments and
+some crude co-occurrence analyses are described in Ellison et al. 2003
+Advances in Ecological Research paper. On my web-site.
+ 
+\end{verbatim}
+
+The Meta-Data are here:
+\url{http://harvardforest.fas.harvard.edu/sites/harvardforest.fas.harvard.edu/files/ellison-pubs/2003/ellison_etal_2003_aer.pdf}
+
+
 <<>>=
 ####Data are NOT published. Do not distribute
 
+##Hawley 1999
+h99 <- read.csv('~/projects/inquiline_network_evolution/data/Hawley1999colonization.csv')
+summary(h99)
 
+head(h99)
+
+##Paste to make observation ids
+oid <- paste(h99[,1],h99[,2],h99[,3],sep='_')
+
+###Remove observations with fewer reps
+rm.oid <- names(table(oid)[table(oid)<135])
+h99 <- h99[oid%in%rm.oid==FALSE,]
+
+##Make observation ids, again...
+oid <- paste(h99[,1],h99[,2],h99[,3],sep='_')
+
+##Separate leaves
+h99.l <- split(h99,oid)
+h99.l[[1]]
 
 @ 
 
