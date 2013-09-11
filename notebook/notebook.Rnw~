@@ -17,46 +17,63 @@
                        %\hypertarget{label}{link caption}
 \linespread{1.5}
 
-\title{}
+\title{Pitcher Plant Inquiline Network Evolution}
 \author{M.K. Lau}
 %\date{}                                           % Activate to display a given date or no date
 
 \begin{document}
 \maketitle
 
-%\setcounter{tocdepth}{3}  %%activate to number sections
-%\tableofcontents
+\section{Tasks}
 
-%\thispagestyle{empty}
-%\setcounter{page}{0}
-%\setcounter{secnumdepth}{-1}  %activate to start numbering from one
-%on the second page
+\begin{enumerate}
+
+\item Look over pitcher plant lit from Aaron's group
+\item Look over urban metabolism work and models from china
+
+\item Conservation! 
+
+\item EcoSimR
+
+  \begin{enumerate}
+  \item other packages / value added
+  \item CRAN
+  \item Adding other co-occurrence and bayesian algorithms
+  \item Tapping into github
+  \item 
+  \end{enumerate}
+
+\item Think about the potential evolutionary questions
+\item Think about the potential network cross overs
+\end{enumerate}
+
+\section{Brainstorm}
+\begin{enumerate}
+\item Conservation?
+\item Evolution?
+\item Model for urban metabolism
+\item Ecosystem level effects tie in with ascendency
+\item Genetics of pitchers, correlate with network structure
+\item Molecular investigation to examine evolution in the inqulines
+\item Mine the dataset and look for biogeographic patterns
+\item Rock-Paper-Scissors Model from Allesina
+\item Increase resolution of nodes
+\item Warming experiments and monitor network structure
+\item 
+\item Ant co-occurrence patterns
+\item 
+\end{enumerate}
+
+\section{Literature Review}
+
+%%%See the biblib file
 
 
-%\section{}
-%\subsection{}
 
-%% %%Figure construction
-%% <<echo=false,results=hide,label=fig1,include=false>>=
-%% @ 
+\subsection{Baiser et al. 2011 Species Richness and Trophic Diversity
+  Increase Decomposition in a Co-Evolved Food Web}
 
-
-%% %%Figure plotting
-%% \begin{figure} 
-%% \begin{center} 
-%% <<label=fig1,fig=TRUE,echo=false>>=
-%% <<fig1>> 
-%% @ 
-%% \end{center} 
-%% \caption{}
-%% \label{fig:one}
-%% \end{figure}
-
-
-%% %%Activate for bibtex vibliography
-%% \cite{goossens93}
-%% \bibliographystyle{plain}
-%% \bibliography{/Users/Aeolus/Documents/bibtex/biblib}
+\subsection{}
 
 
 \end{document}  
